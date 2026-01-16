@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <main>
       Welcome
-      <Link href={'/users'}>to user dashboard</Link>
+      <Link className="text-blue-500 hover:underline" href={'/users'}>go to user dashboard</Link>
     </main>
   )
 }
